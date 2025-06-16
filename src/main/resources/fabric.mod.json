@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bombondecanela",
+	"version": "${version}",
+	"name": "bombondecanela",
+	"description": "Este es un mod con el objetivo de aprender a hacer mods para Minecraft usando Fabric.",
+	"authors": [
+		"Bombondecanela"
+	],
+	"contact": {
+		"homepage": "https://github.com/yaider162",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bombondecanela/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yaider.Bombondecanela"
+		],
+		"client": [
+			"net.yaider.BombondecanelaClient"
+		],
+		"fabric-datagen": [
+			"net.yaider.BombondecanelaDataGenerator"
+		]
+	},
+	"mixins": [
+		"bombondecanela.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

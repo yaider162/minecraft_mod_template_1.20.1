@@ -16,4 +16,4 @@ Plantilla básica para mods de Minecraft usando Java, Gradle y Fabric.
 - Minecraft y Fabric API
 ---
 
-Esta plantilla está pensada para facilitar la creación de nuevos mods de Minecraft.
+Esta plantilla está pensada para facilitar la creación de nuevos mods de Minecraft. juas juas
